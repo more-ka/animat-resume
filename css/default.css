@@ -1,0 +1,40 @@
+*{border:0;margin:0;
+box-sizing: border-box}
+
+.token.selector{
+  color: black;
+}
+.token.property{
+  color: black;
+}
+.token.function{
+  color: black;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  padding: 16px;
+}
+#code{
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+}
+#paper{
+  position: fixed;
+  width: 49%;
+  background: rgba(167, 163, 155, 0.829);
+  right: 0;
+  height: 100%;
+  padding: 16px;
+}
+#paper .content{
+  width: 100%;
+  height: 100%;
+  line-height: 20px;
+}
+#paper .html{
+  background: white;
+}
